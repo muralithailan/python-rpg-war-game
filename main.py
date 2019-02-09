@@ -1,3 +1,6 @@
+"""
+Python rpg game with AI
+"""
 from classes.game import Person, bcolors
 from classes.magic import Spell
 from classes.inventory import Item
