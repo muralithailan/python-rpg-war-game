@@ -19,7 +19,6 @@ cure = Spell("Cure", 25, 620, "white")
 cura = Spell("Cura", 32, 1500, "white")
 curaga = Spell("Curaga", 50, 6000, "white")
 
-
 # Create some Items
 potion = Item("Potion", "potion", "Heals 50 HP", 50)
 hipotion = Item("Hi-Potion", "potion", "Heals 100 HP", 100)
@@ -27,8 +26,7 @@ superpotion = Item("Super Potion", "potion", "Heals 1000 HP", 1000)
 elixer = Item("Elixer", "elixer", "Fully restores HP/MP of one party member", 9999)
 hielixer = Item("MegaElixer", "elixer", "Fully restores party's HP/MP", 9999)
 
-grenade = Item("Grenade", "attack", "Deals 500 damage", 500)
-
+grenade = Item("Grenada", "attack", "Deals 500 damage", 500)
 
 player_spells = [fire, thunder, blizzard, meteor, cure, cura]
 enemy_spells = [fire, meteor, curaga]
