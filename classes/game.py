@@ -23,7 +23,7 @@ class Person:
         self.df = df
         self.magic = magic
         self.items = items
-        self.actions = ["Attack", "Magic", "Items"]
+        self.actions = ["Attack", "Magic", "Items", "Gift"]
         self.name = name
 
     def generate_damage(self):
